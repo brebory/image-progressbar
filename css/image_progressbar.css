@@ -1,0 +1,27 @@
+.container {
+  position: relative;
+  top: 300px;
+}
+.image-progressbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100px;
+  height: 100px;
+}
+.one {
+  background: url('../images/pb1.jpg') no-repeat center center;
+  z-index: 4;
+}
+.two {
+  background: url('../images/pb2.jpg') no-repeat center center;
+  z-index: 3;
+}
+.three {
+  background: url('../images/pb3.jpg') no-repeat center center;
+  z-index: 2;
+}
+.four {
+  background: url('../images/pb4.jpg') no-repeat center center;
+  z-index: 1;
+}
